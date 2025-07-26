@@ -1,0 +1,75 @@
+/* General Page Styling */
+body {
+    background-color: #f8f9fa; /* Light grey background */
+    font-family: 'Poppins', sans-serif; /* Modern font */
+}
+
+/* Centering Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    flex-direction: column; /* Stack title and form */
+}
+
+/* Title Styling */
+.form-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+/* Form Box */
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    width: 45%; /* Adjust width */
+    text-align: center;
+}
+
+/* Input Fields */
+.form-control,
+.form-select {
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect on Input Fields */
+.form-control:focus,
+.form-select:focus {
+    border-color: #17a2b8;
+    box-shadow: 0 0 8px rgba(23, 162, 184, 0.5);
+}
+
+/* File Input Styling */
+input[type="file"] {
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+/* Submit Button Styling */
+.btn-info {
+    background-color: #17a2b8;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 8px;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Button Hover Effect */
+.btn-info:hover {
+    background-color: #138496;
+    transform: translateY(-2px);
+}
